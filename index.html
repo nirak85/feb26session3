@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h2>Movie Catalog</h2>
+
+    <form id="movie-form" novlidate name="movie-form">
+      <h3>Add Movie</h3>
+      <div>
+        <label for="movie-name">Movie Name</label>
+        <input
+          placeholder="Movie Name"
+          id="movie-name"
+          name="movie-name"
+          type="text"
+        />
+      </div>
+      <div>
+        <label for="release-date">Release Date</label>
+        <input id="release-date" name="release-date" type="date" />
+      </div>
+
+      <button>Boom</button>
+    </form>
+
+    <table id="movie-table">
+      <thread>
+        <tr>
+          <th>Comedy</th>
+          <th>Drama</th>
+        </tr>
+      </thread>
+
+      <tbody></tbody>
+    </table>
+
+    <div id="app"></div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
